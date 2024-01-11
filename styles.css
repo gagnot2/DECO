@@ -34,25 +34,38 @@ nav {
     padding: 10px 0;
 }
 
-nav button {
+.navbutton {
     display: inline-block;
     padding: 5px 20px;
     margin: 5px 10px;
     font-family: 'Syne', 'Arial', sans-serif;
     color: #001CCE;
     background-color: #fff8e9;
-    cursor: pointer;
     border: solid 2px #001CCE;
     font-size: 16px;
     border-radius: 50px;
 }
 
-nav button:hover {
+.navbutton:hover {
     background-color: #001CCE;
-    color: #FFF3D6;
+    color: #fff8e9;
+    border: solid 2px #001CCE;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-weight: 500;
+    padding: 5px 23px;
+}
+
+.active {
+    background-color: #fff8e9;
+    color: #ff4c1b;
+    border: solid 2px #ff4c1b;
+}
+
+.active:hover {
+    background-color: #ff4c1b;
+    color: #fff8e9;
+    border: solid 2px #ff4c1b;
 }
 /* HEADER END */
 
@@ -60,6 +73,7 @@ nav button:hover {
 h1 {
     font-size: 38px;
     font-family: 'Syne', 'Arial', sans-serif;
+    color: #001CCE;
 }
 h1:hover {
     color:#ff4c1b;
@@ -70,7 +84,7 @@ h3 {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     letter-spacing: 2px;
-    color: #ff4c1b;
+    color: #b2c635;
     margin-bottom: 2px;
     font-size: 28px;
 }
@@ -80,6 +94,7 @@ p {
     font-size: 18px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
+    text-align: justify;
 }
 /* END TEXT STYLES */
 
@@ -104,12 +119,14 @@ hr {
     padding: 5px 25.5px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 1px;
     color: #fff8e9;
     background-color: #ff4c1b;
 }
-
+a {
+    text-decoration: none;  
+}
 
 /* MAIN CONTENT */
 main {
@@ -125,8 +142,9 @@ main {
 .img1{
     float: left;
     padding: 10px 15px 3px 0;
+    max-width: 100%;
+    height: auto;
 }
-
 /* MAIN CONTENT END */
 
 /* FOOTER */
