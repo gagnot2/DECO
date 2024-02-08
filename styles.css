@@ -4,7 +4,7 @@ body {
     font-family: 'Syne', 'Arial', sans-serif;
     background-color: #fff8e9;
     color: #001CCE;
-    cursor: url('colors.png'), auto;
+    cursor: url("images/colors.png"), crosshair;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -84,17 +84,16 @@ h3 {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     letter-spacing: 2px;
-    color: #b2c635;
+    color: #ff4c1b;
     margin-bottom: 2px;
     font-size: 28px;
 }
 
 p {
     margin: 5px;
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
-    text-align: justify;
 }
 /* END TEXT STYLES */
 
@@ -148,6 +147,9 @@ main {
 /* MAIN CONTENT END */
 
 /* FOOTER */
+.buffer {
+    height:50px;
+}
 footer {
     margin-top: auto;
     text-align: center;
@@ -157,4 +159,31 @@ footer {
     align-self: center;
     text-align: left;
 }
+
+#footer-title {
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Syne', 'Arial', sans-serif;;
+  }
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 5px;
+  }
+  footer ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer a{
+    text-decoration: none;
+  }
+  footer a:hover{
+    color: #ff4c1b;
+  }
+  .footerlogo {
+    max-width: 90px;
+    margin: 15px; 
+    float: right;
+  }
 /*FOOTER END*/
